@@ -1,0 +1,22 @@
+{
+  "name": "yolov3-onnxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "gh-pages": "^2.1.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "ndarray": "^1.0.18",
+    "onnxjs": "^0.1.7"
+  }
+}
